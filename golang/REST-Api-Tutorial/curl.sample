@@ -1,0 +1,2 @@
+curl -d '{"Id": "3", "Title": "Newly Created Post", "desc": "The description for my new post", "content": "my articles content"
+}' -H "Content-Type: application/json" -X POST http://localhost:10000/article
